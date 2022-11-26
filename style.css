@@ -1,0 +1,73 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.card-body{
+    position: relative;
+    left: 35%;
+    background-color: rgb(250, 244, 179);
+    width: 30vw;
+    height: 90vh;
+    margin-top: 1%;
+    border-radius: 20px;
+    row-gap: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    color:black;
+    display: flex;
+}
+.about-me{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(95, 95, 255);
+    height: 300px;
+    width: 250px;
+    margin-top: 0px       
+}
+.social-media-icons{
+    position: absolute;
+    margin-top: 425px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.whatsapp-icon,
+.instagram-icon,
+.linkedin-icon,
+.gmail-icon{
+    height: 35px;
+    margin: 14px;
+    transition: all ease 0.2s;
+}
+.site{
+    background-color: rgb(95, 95, 255);
+    height: 35px;
+    width: 250px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 400px;
+}
+#img-click-linkedin, 
+#img-click-instagram,
+#img-click-whatsapp,
+#img-click-gmail{
+    display: none;
+}
+
+#img-click-linkedin:checked + label > img,
+#img-click-instagram:checked + label > img,
+#img-click-whatsapp:checked + label > img,
+#img-click-gmail:checked + label > img{
+   height: 45px;
+   opacity: 0.7;
+}
