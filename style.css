@@ -25,7 +25,8 @@
     color:rgb(253, 255, 197);
     display: flex;
     justify-content: center;
-    top: 30px;
+    top: 7vh;
+    font-size: 5vh;
     
 }
 .about-me{
@@ -107,6 +108,9 @@ border-radius: 100px;
     }
     .plano-de-fundo{
         top:20vmin;
+    }
+    .title{
+        font-size: 4vw;
     }
 
 }
