@@ -43,17 +43,18 @@
 }
 
 .logo {
-margin-top: 370px;
-min-height: 10vh;
-max-width: 60vw;
-border-radius: 100px;
-
+    margin-top: 370px;
+    min-height: 10vh;
+    max-width: 60vw;
+    border-radius: 100px;
+    z-index: 2;
 }
 .plano-de-fundo {
     top: 20vmax;
     position: absolute;
-    height: 100px;
-    width: 100px;
+    height: 30vmin;
+    width: 30vmin;
+    z-index: 1;
 }
 .social-media-icons{
     position: absolute;
@@ -111,6 +112,9 @@ border-radius: 100px;
     }
     .title{
         font-size: 4vw;
+    }
+    .logo{
+        top: 20vw;
     }
 
 }
