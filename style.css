@@ -39,7 +39,6 @@
     min-width: 100vw;
     top: 0px ;
     background: linear-gradient(to bottom, rgb(165, 2, 2) 40%, transparent 100%);   
-    
 }
 
 .logo {
@@ -98,4 +97,17 @@ border-radius: 100px;
 #img-click-gmail:checked + label > img{
    height: 45px;
    opacity: 0.7;
+}
+@media (orientation: landscape){
+    .social-media-icons{
+        
+        top: 80vmin;
+        
+       
+       
+    }
+    .site{
+        top: 90vmin;
+    }
+
 }
