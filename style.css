@@ -27,8 +27,10 @@
     justify-content: center;
     top: 7vh;
     font-size: 5vh;
-    
+    border-bottom: 1px solid rgb(253, 255, 197);
+    width: 80%;
 }
+
 .about-me{
     position: relative;
     display: flex;
@@ -36,29 +38,28 @@
     align-items: center;
     flex-direction: column;
     background-color: rgb(165, 2, 2);
-    min-height: 60vh;
+    min-height: 65vh;
     min-width: 100vw;
     top: 0px ;
     background: linear-gradient(to bottom, rgb(165, 2, 2) 40%, transparent 100%);   
     z-index: 1;
-}
-
+}   
 .logo {
-    margin-top: -5vh;
+    margin-top: -10vh;
     min-height: 10vh;
     max-width: 100vw;
     z-index: 2; 
 }
 .logo-img{
-    max-width: 65vw;
-    border-radius: 20px;
+    max-width: 100vw;
+    
 }
 .plano-de-fundo {
     top: 20vmax;
     position: absolute;
-    height: 30vmin;
-    width: 30vmin;
-    z-index: 1;
+    height: 40vmin;
+    width:  50vmin;
+   
 }
 .social-media-icons{
     position: absolute;
@@ -122,13 +123,5 @@
     }
 
 }
-.message{
-    position: absolute;
-    right:  0.5vw;
-    top: 1vw;
-    max-width: 60vw;
-    font-size: 12px;
-    font-family: "Open Sans", sans-serif;
-    color: rgb(253, 255, 197);
-  }
+
   
